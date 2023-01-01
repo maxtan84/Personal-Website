@@ -10,13 +10,13 @@
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styles.css">
 
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="img/devjane.png" alt="">
+                <img src="img/devlogo.png" alt="">
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -24,9 +24,8 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,103 +35,56 @@
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Max Tan</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <p class="section__subtitle section__subtitle--intro"></p>
             <img src="img/portfolio-01.jpg" alt="a picture of Max Tan smiling" class="intro__img">
         </section>
         
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
         <!-- About me -->
         <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Designer & developer based out Toronto</p>
-           
-           <div class="about-me__body">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-           </div>
-           
-           <img src="img/portfolio-04.jpg" alt="Jane leaning against a bus" class="about-me__img">
+            <div class="about-me-overlay">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Student and developer based out of Markham</p>
+                
+                <div class="about-me__body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <img src="img/orangeClickerSS.png" alt="picture of a place in Markham" class="about-me__img">
         </section>
         
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <!-- My Projects-->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">My Projects</h2>
+            <p class="section__subtitle section__subtitle--projects">A selection of projects I created</p>
             
             <div class="portfolio">
                 <!-- Portfolio item 01 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-                </a>
+                <div class="portfolio__item">
+                    <h3 class="projects-title">Chrome Homepage Extension</h3>
+                    <p class="project-subtitle">Made with HTML/CSS and JS</p>
+                    <a href="portfolio-item.html">
+                        <img src="img/chromeExtensionSS.png" alt="chrome homepage extension screenshot" class="portfolio__img">
+                    </a>
+                </div>
                 
                 <!-- Portfolio item 02 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-                </a>
+                <div class="portfolio__item">
+                    <h3 class="projects-title">Colour Scheme Generator</h3>
+                    <p class="project-subtitle">Made using HTML/CSS and JS</p>
+                    <a href="portfolio-item.html">
+                        <img src="img/colorSchemeGeneratorSS.png" alt="color scheme generator used with color orange" class="portfolio__img">
+                    </a>
+                </div>
                 
                 <!-- Portfolio item 03 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 07 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
+                <div class="portfolio__item">
+                    <h3 class="projects-title">Orange Clicker</h3>
+                    <p class="project-subtitle">Made using Greenfoot IDE (Java)</p>
+                    <a href="portfolio-item.html">
+                        <img src="img/orangeClickerSS.png" alt="in game screenshot of orange clicker" class="portfolio__img">
+                    </a>
+                </div>
             </div>
         </section>
         
