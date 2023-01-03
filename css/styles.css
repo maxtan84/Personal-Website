@@ -262,6 +262,11 @@ header {
     box-shadow: var(--bs);
 }
 
+.subpage-intro {
+    border-bottom: 5px solid var(--clr-dark);
+    border-radius: 2px;
+}
+
 .section__subtitle--intro {
     display: inline-block;
 }
@@ -395,6 +400,7 @@ header {
 
 @media (max-width: 800px){
     .portfolio {
+        max-width: 100vw;
         flex-direction: column;
     }
 
