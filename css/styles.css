@@ -485,6 +485,12 @@ header {
     margin: 0 auto;
 }
 
+.portfolio-item-individual p{
+    margin: 0 auto;
+    padding: 1em 0;
+    width: 80%;
+}
+
 @media (max-width: 800px){
     .portfolio {
         max-width: 100vw;
