@@ -434,15 +434,10 @@ header {
 /* My Projects*/
 
 .my-projects {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;    
     transition: 400ms;
-}
-
-.dark .my-projects{
-    background: var(--clr-dark-dark);
-    color: var(--clr-light);
 }
 
 .portfolio {
@@ -489,6 +484,18 @@ header {
     margin: 0 auto;
     padding: 1em 0;
     width: 80%;
+}
+
+/* Experience */
+
+#experience {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+.dark #experience {
+    background: var(--clr-dark-dark);
+    color: var(--clr-light);
 }
 
 @media (max-width: 800px){
